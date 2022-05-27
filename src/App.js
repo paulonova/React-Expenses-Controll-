@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses/Expenses";
+import "./sass/style.css";
 
 const App = () => {
   const expenses = [
