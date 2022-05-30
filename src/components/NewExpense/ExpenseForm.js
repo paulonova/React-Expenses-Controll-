@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const ExpenseForm = () => {
+const ExpenseForm = (props) => {
   const [enteredTitle, setEnteredTitle] = useState("");
   const [enteredAmount, setEnteredAmount] = useState("");
   const [enteredDate, setEnteredDate] = useState("");
@@ -26,12 +26,11 @@ const ExpenseForm = () => {
       amount: enteredAmount,
       date: new Date(enteredDate),
     };
-    //event.target.reset();
+    props.onSaveExpenseData(expenseData); // came from New Expenses (CallBack function)
     //Clean the input fields
     setEnteredTitle("");
     setEnteredAmount("");
     setEnteredDate("");
-    console.log(expenseData);
   };
   return (
     <form onSubmit={submitHandler}>

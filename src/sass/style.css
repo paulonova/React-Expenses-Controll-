@@ -48,6 +48,37 @@
   font-weight: bold;
 }
 
+.expenses-filter {
+  padding: 0 1rem;
+  color: white;
+}
+
+.expenses-filter__control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 1rem 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.expenses-filter label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.expenses-filter select {
+  font: inherit;
+  font-weight: bold;
+  padding: 0.5rem 3rem;
+  border-radius: 6px;
+}
+
 .card {
   border-radius: 12px;
   -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
