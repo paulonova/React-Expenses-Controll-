@@ -4,10 +4,16 @@
 /********************/
 
 
-@import './sass-components/expenses';
-@import './sass-components/expensesdata';
-@import './sass-components/expenses-filter';
-@import './sass-components/cards';
-@import './sass-components/expensesitem';
-@import './sass-components/expense-form';
-@import './sass-components/new-expense';
+@import './sass-components/chart/chart-bar';
+@import './sass-components/chart/chart';
+
+@import './sass-components/expenses/expense-form';
+@import './sass-components/expenses/expenses-filter';
+@import './sass-components/expenses/expenses-list';
+@import './sass-components/expenses/expenses';
+@import './sass-components/expenses/expensesdata';
+@import './sass-components/expenses/expensesitem';
+@import './sass-components/expenses/new-expense';
+
+
+
